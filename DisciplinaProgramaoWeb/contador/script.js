@@ -11,7 +11,7 @@ buttonRestart.addEventListener("click", buttonRestartClicked)
 
 
 
-/* FUNCOES */
+/* FUNCOES test */
 
 function buttonClicked() {
     console.log("Button clicked!!")
