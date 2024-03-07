@@ -1,64 +1,58 @@
-/* Estilo adicional para o h1 quando hover (passar o mouse por cima) */
 #titulo-principal:hover {
-    color: #ff5733; /* Muda a cor do texto ao passar o mouse */
+    color: #ff5733; 
 }
 
 body {
-    background-color: #f2f2f2; /* Cor de fundo do corpo */
-    font-family: Arial, sans-serif; /* Fonte padrão */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove padding padrão */
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
 }
 
 #titulo-principal {
-    font-size: 48px; /* Tamanho da fonte */
-    color: #333; /* Cor do texto */
-    margin: 50px 0 20px; /* Margem superior e inferior de 50px, margem inferior de 20px */
-    text-align: center; /* Alinhamento centralizado */
-    text-transform: uppercase; /* Transforma o texto em maiúsculas */
-    letter-spacing: 2px; /* Espaçamento entre letras */
+    font-size: 48px;
+    color: #333;
+    margin: 50px 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #counter-title {
     text-align: center;
 }
 
-#counter-button {
-    background-color: #333; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto */
-    border: none; /* Remove a borda do botão */
-    padding: 10px 20px; /* Preenchimento interno do botão */
-    font-size: 16px; /* Tamanho da fonte */
-    border-radius: 5px; /* Borda arredondada */
-    display: block; /* Torna o botão um bloco */
-    margin: 0 auto; /* Centraliza o botão horizontalmente */
-    cursor: pointer; /* Altera o cursor ao passar o mouse */
+.primary-button {
+    background-color: #333; 
+    color: #fff;
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    border-radius: 5px; 
+    display: block; 
+    margin: 0 auto;
+    cursor: pointer;
 }
 
-#counter-button:hover {
-    background-color: #555; /* Altera a cor de fundo ao passar o mouse */
+.primary-button:hover {
+    background-color: #555;
 }
 
-.secondery-button {
-    background-color: #333; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto */
-    border: none; /* Remove a borda do botão */
-    padding: 10px 20px; /* Preenchimento interno do botão */
-    font-size: 16px; /* Tamanho da fonte */
-    border-radius: 5px; /* Borda arredondada */
-    display: block; /* Torna o botão um bloco */
-    margin: 0 auto; /* Centraliza o botão horizontalmente */
-    cursor: pointer; /* Altera o cursor ao passar o mouse */
-    background-color: #333; /* Cor de fundo do botão principal */
-    color: #fff; /* Cor do texto */
-    border: none; /* Remove a borda */
-    padding: 10px 20px; /* Preenchimento interno */
-    font-size: 16px; /* Tamanho da fonte */
-    border-radius: 5px; /* Borda arredondada */
-    margin-right: 10px; /* Margem direita */
-    cursor: pointer; /* Altera o cursor ao passar o mouse */
-    background-color: transparent; /* Cor de fundo transparente */
-    color: #333; /* Cor do texto */
-    border: 2px solid #333; /* Borda sólida */
 
+.secondary-button {
+    background-color: #fff; 
+    color: #000;
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    border-radius: 5px; 
+    display: block; 
+    margin: 0 auto;
+    cursor: pointer;
 }
+
+.secondary-button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
