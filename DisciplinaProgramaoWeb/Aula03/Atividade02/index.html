@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="mainTitle">Finalizando Venda</h1>
+
+
+    <div id="mainDiv">
+        <form>
+            <label for="nomeVendedor">Nome do vendedor: </label>
+            <input type="text" id="nomeVendedor" name="nomeVendedor"><br><br>
+    
+            <label for="valorVenda">Valor da venda: </label>
+            <input type="number" id="valorVenda" name="valorVenda"><br><br>
+    
+            <div id="divButtons">
+                <button id="cadastrar" type="button">Cadastrar</button>
+                <button id="limpar" type="button">Limpar</button>
+                <button id="remover" type="button">Remover</button>
+            </div>
+        </form>
+
+        <div>
+            <table id="vendasTable">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome Vendedor</th>
+                        <th>Valor</th>
+                        <th>Desconto</th>
+                    </tr>
+                <tbody>
+                    <!-- Aqui serão inseridas as linhas da tabela dinamicamente -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
