@@ -12,7 +12,7 @@ var btnRemover = getById("remover");
 
 btnCadastrar.addEventListener("click", cadastrar);
 btnLimpar.addEventListener("click", limpar);
-btnRemover.addEventListener("click", remover);
+btnRemover.œaddEventListener("click", remover);
 
 
 
@@ -20,7 +20,7 @@ function cadastrar(event) {
     console.log("func executada cadastrar");
 
     event.preventDefault(); // Evita que o formulário seja submetido
-
+œ
 
     var nomeVendedor = getById("nomeVendedor").value;
     var valorVenda = getById("valorVenda").value;
