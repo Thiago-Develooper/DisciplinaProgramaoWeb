@@ -1,3 +1,4 @@
+//códigozao brabo
 class SalesCalculator {
     constructor() {
         this.sales = [];
