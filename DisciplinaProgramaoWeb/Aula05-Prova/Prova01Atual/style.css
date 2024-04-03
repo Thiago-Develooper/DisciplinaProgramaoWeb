@@ -71,3 +71,22 @@ footer {
     width: 100%;
     box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
 }
+
+.opakk {
+    background-color: black;
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: box-shadow 0.3s ease; /* Efeito de transição da sombra */
+}
+
+/* Estilizar quando o mouse passa por cima */
+.opakk:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Sombra mais intensa */
+}
+
+/* Estilizar quando o elemento está ativo (clicado) */
+.opakk:active {
+    transform: translateY(2px); /* Efeito de deslocamento para baixo ao clicar */
+}
