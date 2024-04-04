@@ -1,0 +1,107 @@
+/* Estilo para o formulário */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#services {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5H7z"/><path fill="none" d="M0 0h24v24H0z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#reportList {
+    margin-top: 30px;
+}
+
+#list {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#list p {
+    margin-bottom: 10px;
+}
+
+#totalValue {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #888;
+}
+
+/* Estilo para pixel art */
+.pixel-art {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pixel {
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    margin: 1px;
+    border-radius: 3px;
+}
+
+#total {
+    font-weight: bold;
+}

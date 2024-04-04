@@ -8,25 +8,34 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <!-- header pq nois é semantico -->
     <header>
         <h1>Pet Shop - Gestão de Serviços</h1>
     </header>
+
+        <!-- Main pq nois é semântico tb -->
     <main>
         <section id="services">
             <h2>Registro de Serviços</h2>
+
+            <!-- Fomulário -->
+
             <form id="service-form">
+
+                <!-- NOME -->
                 <label for="client-name">Nome do Cliente:</label>
                 <input type="text" id="client-name" required>
 
+                 <!-- TIPO DO SERVICO -->
                 <label for="service-type">Tipo de Serviço:</label>
                 <select id="service-type" required>
                     <option value="">Selecione o tipo de serviço</option>
                     <option value="Banho">Banho</option>
                     <option value="Tosa">Tosa</option>
                     <option value="Consulta Veterinária">Consulta Veterinária</option>
-                    <!-- Adicione mais opções de serviços aqui -->
                 </select>
 
+                  <!-- VALOR DO SERVICO -->
                 <label for="service-value">Valor do Serviço (R$):</label>
                 <input type="number" id="service-value" min="0.01" step="0.01" required>
 
@@ -34,17 +43,19 @@
             </form>
         </section>
 
+        <!-- RELATÓRIO -->
         <section id="reports">
             <h2>Relatório de Serviços</h2>
             <div id="report-list">
-                <!-- Relatórios serão exibidos aqui -->
             </div>
+            <!-- SOMA DE GASTOS -->
             <div id="total-value">
                 <p>Total dos Serviços: <span id="total"></span></p>
             </div>
         </section>
     </main>
 
+    <!-- Footer pq nois é mt semantico -->
     <footer>
         <p>&copy; 2024 Pet Shop Inc. Todos os direitos reservados.</p>
     </footer>
